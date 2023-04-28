@@ -29,6 +29,13 @@ This will start the TA system on port 3000.
 Once the TA system is running, you can test it using Postman. Here are the endpoints available:
 
 ### 1. Singleton Pattern
+Using Postman, GET method at localhost:3000/applyToTAJob
+
+This will call the Singleton at the backend to update the TA's total number of application, please refer to the terminal where you run docker to see the result
+
+![image](https://drive.google.com/uc?export=view&id=1Qn--73RCTRHi6tKY_qAWJT_t2FbqlGQm)
+
+![image](https://drive.google.com/uc?export=view&id=1JzhufCJynNZzTsF30CNdSM38cZWIiZFd)
 
 ### 2. Adapter Pattern
 
