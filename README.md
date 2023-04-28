@@ -28,8 +28,8 @@ This will start the TA system on port 3000.
 
 Once the TA system is running, you can test it using Postman. Here are the endpoints available:
 
-### 1. Singleton Pattern
-Using Postman, GET method at localhost:3000/applyToTAJob
+### 1. Singleton Pattern - TA Session Profile Singleton
+Using Postman (Or any other api call application), GET method at http://localhost:3000/applyToTAJob
 
 This will call the Singleton at the backend to update the TA's total number of application, please refer to the terminal where you run docker to see the result
 
@@ -37,6 +37,13 @@ This will call the Singleton at the backend to update the TA's total number of a
 
 ![image](https://drive.google.com/uc?export=view&id=1JzhufCJynNZzTsF30CNdSM38cZWIiZFd)
 
-### 2. Adapter Pattern
+### 2. Adapter Pattern - Score Format Adapter
+Using Postman (Or any other api call application), GET method at http://localhost:3000/getTAScoreFormat
+
+This will get the initiated TA data and convert into the two format for either file storing purpose or viewing purpose (JSON or XML)
+
+In real application, there will be an implementation of fetching the data from the backend, but for the purpose of the implementation, I initialized with an initial data in the function ```getTAData()```
+
+After calling the api, it will retrieve the data and use the adapter to convert the two data, those two data are shown in either the terminal where the docker is running or the 
 
 ### 3. Observer Pattern
