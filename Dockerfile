@@ -43,7 +43,6 @@ USER node
 
 FROM node:16 As production
 
-COPY  --from=build /usr/src/app/key.json ./
 COPY  --from=build /usr/src/app/node_modules ./node_modules
 COPY  --from=build /usr/src/app/dist ./dist
 
