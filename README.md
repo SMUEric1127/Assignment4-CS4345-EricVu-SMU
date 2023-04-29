@@ -27,7 +27,7 @@ This will start the TA system on port 3000.
 Once the TA system is running, you can test it using Postman. Here are the endpoints available:
 
 ### 1. Singleton Pattern - TA Session Profile Singleton
-Using Postman (Or any other api call application), GET method at http://localhost:3000/applyToTAJob
+Using Postman (Or any other api call application), GET method at ```http://localhost:3000/applyToTAJob```
 
 This will call the Singleton at the backend to update the TA's total number of application, please refer to the terminal where you run docker to see the result
 
@@ -36,7 +36,7 @@ This will call the Singleton at the backend to update the TA's total number of a
 ![image](https://drive.google.com/uc?export=view&id=1JzhufCJynNZzTsF30CNdSM38cZWIiZFd)
 
 ### 2. Adapter Pattern - Score Format Adapter
-Using Postman (Or any other api call application), GET method at http://localhost:3000/getTAScoreFormat
+Using Postman (Or any other api call application), GET method at ```http://localhost:3000/getTAScoreFormat```
 
 This will get the initiated TA data and convert into the two format for either file storing purpose or viewing purpose (JSON or XML)
 
@@ -49,7 +49,7 @@ After calling the api, it will retrieve the data and use the adapter to convert 
 ![image](https://drive.google.com/uc?export=view&id=1JcOh6Y0_9ubXDm8YEk2QloSGPIf_bpcx)
 
 ### 3. Observer Pattern
-Úing Pótman, GET method at http://localhost:3000/addta
+Úing Pótman, GET method at ```http://localhost:3000/addta```
 
 This will add the TA to the system and notice any Professor that is subcribed to the information channel.
 
