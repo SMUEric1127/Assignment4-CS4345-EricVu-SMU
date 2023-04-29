@@ -6,8 +6,7 @@ A TypeScript project that implements a TA system.
 
 To clone the project, use the following command:
 
-git clone https://github.com/SMUEric1127/Assignment4-CS4345-EricVu-SMU
-
+```git clone https://github.com/SMUEric1127/Assignment4-CS4345-EricVu-SMU```
 
 ## Build Docker Image
 
