@@ -44,6 +44,21 @@ This will get the initiated TA data and convert into the two format for either f
 
 In real application, there will be an implementation of fetching the data from the backend, but for the purpose of the implementation, I initialized with an initial data in the function ```getTAData()```
 
-After calling the api, it will retrieve the data and use the adapter to convert the two data, those two data are shown in either the terminal where the docker is running or the 
+After calling the api, it will retrieve the data and use the adapter to convert the two data, those two data are shown in either the terminal where the docker is running or the postman console
+
+![image](https://drive.google.com/uc?export=view&id=17VRAWs_kWJDtuZ-Po-WnSGi9YFT1ke65)
+
+![image](https://drive.google.com/uc?export=view&id=1JcOh6Y0_9ubXDm8YEk2QloSGPIf_bpcx)
 
 ### 3. Observer Pattern
+Úing Pótman, GET method at http://localhost:3000/addta
+
+This will add the TA to the system and notice any Professor that is subcribed to the information channel.
+
+In real application, we can push notification through email or mobile app and let professor know about their potential candidates.
+
+After calling the api, it will update and notice all of the observer that is subcribed to the TA Object.
+
+![image](https://drive.google.com/uc?export=view&id=1phvC-tLjCrhDXF-3CjXe9KC_7pbHVu4y)
+
+![image](https://drive.google.com/uc?export=view&id=13LdBG8eCkRbODWohpuyvyGMf9qJev1cK)
