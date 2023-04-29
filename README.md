@@ -13,14 +13,13 @@ git clone https://github.com/SMUEric1127/Assignment4-CS4345-EricVu-SMU
 
 To build the Docker image, navigate to the project root directory and use the following command:
 
-docker build -t ta-system .
-
+```docker build -t ta-system .```
 
 ## Run Docker Image
 
 To run the Docker image, use the following command:
 
-docker run -p 3000:3000 ta-system
+```docker run -p 3000:3000 ta-system```
 
 This will start the TA system on port 3000.
 
