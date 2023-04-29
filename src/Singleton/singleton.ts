@@ -7,7 +7,7 @@ export class TAProfile {
         public totalApplicationsSubmitted: number
     ) {}
 
-    public static getInstance(totalApplicationsSubmitted: number) {
+    public static getInstance(totalApplicationsSubmitted: number): TAProfile {
         if (!TAProfile.instance) {
             TAProfile.instance = new TAProfile(totalApplicationsSubmitted);
         }
