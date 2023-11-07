@@ -49,7 +49,7 @@ After calling the api, it will retrieve the data and use the adapter to convert 
 ![image](https://drive.google.com/uc?export=view&id=1JcOh6Y0_9ubXDm8YEk2QloSGPIf_bpcx)
 
 ### 3. Observer Pattern
-Úing Pótman, GET method at ```http://localhost:3000/addta```
+Using Postman, GET method at ```http://localhost:3000/addta```
 
 This will add the TA to the system and notice any Professor that is subcribed to the information channel.
 
